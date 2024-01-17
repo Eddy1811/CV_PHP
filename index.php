@@ -1,22 +1,37 @@
 <?php
+
+
+filter_input(
+    INPUT_GET,
+    'page',
+    FILTER_DEFAULT,
+    FILTER_SANITIZE_SPECIAL_CHARS,
+);
+
+
+
+
+
 var_dump($_GET);
-$page = $_GET['page'];
+$page = filter_input(INPUT_GET,'page',FILTER_SANITIZE_SPECIAL_CHARS);
+var_dump($page);
 $page = $page ?? "Accueil";
 
 switch ($page) {
     case "Contact" :
-        require 'contact.php';
+        require 'pages/contact.php';
         break;
 
     case "Hobby" :
-        require 'Hobby.php';
+        require 'pages/Hobby.php';
         break;
 
     case "Accueil" :
-        require 'accueil.php';
+        require 'pages/accueil.php';
         break;
 
     default :
-        require '404.php';
+        require 'pages/404.php';
 }
+
 

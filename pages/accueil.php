@@ -8,7 +8,7 @@
         <h1>Curriculum Vitae</h1>
     </div>
     <div class="photo">
-        <img class="photoaaa" src="Images/unnamed.jpg" alt="Photo d'identité">
+        <img class="photoaaa" src="../Images/unnamed.jpg" alt="Photo d'identité">
     </div>
 </div>
 <div class=mid>
