@@ -1,0 +1,127 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  width: auto;
+  background-color: grey;
+}
+
+h1 {
+  color: blue;
+  background-color: aqua;
+}
+
+li.special {
+  list-style-type: circle;
+}
+
+
+table {
+  width: auto;
+  margin-left: 40%;
+}
+
+.titreenbleu {
+  background-color: lightskyblue;
+}
+
+.colonnebleu {
+  background-color: lightskyblue;
+
+}
+
+.contenu {
+  text-align: center;
+  border: solid 2px;
+}
+
+img {
+  height: 200px;
+  border: 150px;
+}
+.haut {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.invisible{
+  width:150px ;
+  background-color: transparent
+}
+body {
+  background-color: rgba(209, 214, 219, 0.897);
+  padding: 0;
+  margin: 0;
+}
+
+.devops {
+  font-weight: bold;
+}
+
+.italique {
+  font-style: italic;
+}
+
+.police {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.policee {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+  border-radius: 30px;
+}
+
+.rouge {
+  color: red;
+}
+
+.bleu {
+  color: blue;
+}
+
+.verte {
+  color: green;
+}
+
+.aaa {
+  color: white;
+}
+
+
+
+.noir {
+  background-color: black;
+}
+
+table {
+  border-collapse: collapse;
+  border: solid 2px lightskyblue;
+}
+
+tr {
+  border: solid 2px;
+}
+
+.bras {
+  display: flex;
+  justify-content: center;
+}
+
+.mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  color: white;
+  background-color: grey;
+  font-size: large;
+}

@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: auto;
+    background-color: grey;
+}
+
+.aaa {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.zone {
+    display: flex;
+}
+
+form {
+    display: flex;
+    height: 500px;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 4%;
+}
+
+.genre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.prenom {
+    display: flex;
+    flex-direction: row;
+}
+
+.vieux {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {}
+
+main {
+    display: flex;
+    justify-content: center;
+}
