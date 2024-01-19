@@ -1,21 +1,8 @@
 <?php
 
-
-filter_input(
-    INPUT_GET,
-    'page',
-    FILTER_DEFAULT,
-    FILTER_SANITIZE_SPECIAL_CHARS,
-);
-
-
-
-
-
-var_dump($_GET);
 $page = filter_input(INPUT_GET,'page',FILTER_SANITIZE_SPECIAL_CHARS);
-var_dump($page);
 $page = $page ?? "Accueil";
+
 
 switch ($page) {
     case "Contact" :
